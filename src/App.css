@@ -2,9 +2,14 @@
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.Button {
+  width: 105px;
+  height: 38px;
+  margin-top: 25px;
+  border-radius: 5px;
+  background-color: #3f5f68;
+  color: white;
+  font-size: 16px;
 }
 
 @media (prefers-reduced-motion: no-preference) {
@@ -32,6 +37,7 @@
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
